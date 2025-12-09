@@ -79,5 +79,8 @@ target_link_libraries( # Specifies the target library.
                        # included in the NDK.
                        #          ${log-lib}
                        mmkvcore
-        pthread
         )
+        
+if(NOT ANDROID)
+    target_link_libraries(mmkv pthread)
+endif()
