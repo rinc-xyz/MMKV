@@ -24,11 +24,6 @@ cmake_minimum_required(VERSION 3.10.0)
 
 project(z)
 
-#IF(APPLE)
-#    add_compile_definitions(FORCE_POSIX)
-#ENDIF()
-
-
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.
