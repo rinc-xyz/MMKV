@@ -26,7 +26,7 @@
 //#define MMKV_DISABLE_FLUTTER
 
 // using POSIX implementation
-//#define FORCE_POSIX
+#define FORCE_POSIX
 
 #ifdef __cplusplus
 
